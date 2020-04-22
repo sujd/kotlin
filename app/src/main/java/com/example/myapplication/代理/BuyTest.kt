@@ -14,7 +14,7 @@ class BuyTest: Activity() {
         super.onCreate(savedInstanceState)
 
         Log.e("sujd====",aa.周一.name);
-        Log.e("sujd====", aa.周一.ordinal.toString());
+        Log.e("sujd====", aa.周三.ordinal.toString());
 
 
         var woman=Woman()
@@ -22,8 +22,5 @@ class BuyTest: Activity() {
         woman.buyfruit()
 
         Log.e("sujd====", (woman==woman2).toString());
-
-//        var man=Man()
-//        man.buyfruit()
     }
 }
