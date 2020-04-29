@@ -21,6 +21,7 @@
         <activity android:name=".数组集合.ArrayActivity"/>
         <activity android:name=".继承封装多态接口抽象.CharacterActivity"/>
         <activity android:name=".代理.BuyTest"/>
+        <activity android:name=".高阶函数.MethodActivity"/>
 
     </application>
 

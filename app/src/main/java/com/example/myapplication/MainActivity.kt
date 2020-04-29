@@ -15,6 +15,7 @@ import com.example.myapplication.代理.BuyTest
 import com.example.myapplication.基础语法.SimpleActivity
 import com.example.myapplication.数组集合.ArrayActivity
 import com.example.myapplication.继承封装多态接口抽象.CharacterActivity
+import com.example.myapplication.高阶函数.MethodActivity
 
 class MainActivity : Activity(){
 
@@ -24,6 +25,8 @@ class MainActivity : Activity(){
     private lateinit var bt2: Button
     private lateinit var bt3: Button
     private lateinit var bt4: Button
+    private lateinit var bt5: Button
+    private lateinit var bt6: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,11 +36,17 @@ class MainActivity : Activity(){
         bt2=findViewById(R.id.bt2)
         bt3=findViewById(R.id.bt3)
         bt4=findViewById(R.id.bt4)
+        bt5=findViewById(R.id.bt5)
+        bt6=findViewById(R.id.bt6)
 
         bt1.setOnClickListener({ startActivity(Intent(Guiding@this,SimpleActivity::class.java ))})
         bt2.setOnClickListener({ startActivity(Intent(Guiding@this,ArrayActivity::class.java ))})
         bt3.setOnClickListener({ startActivity(Intent(Guiding@this,CharacterActivity::class.java ))})
         bt4.setOnClickListener({ startActivity(Intent(Guiding@this,BuyTest::class.java ))})
+        bt6.setOnClickListener({ startActivity(Intent(Guiding@this,MethodActivity::class.java ))})
+//        bt5.setOnClickListener(
+//
+//        )
     }
 
     override fun onStart() {

@@ -39,6 +39,21 @@
                 android:layout_height="45dp"
                 android:gravity="center"
                 android:text="代理模式，枚举练习" />
+
+
+        <Button
+                android:id="@+id/bt5"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="测试印章类" />
+
+        <Button
+                android:id="@+id/bt6"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="高阶函数" />
     </LinearLayout>
 
 </ScrollView>
